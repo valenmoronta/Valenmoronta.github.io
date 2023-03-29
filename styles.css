@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(	https://c.wallhere.com/photos/42/2c/Minecraft_video_games-251988.jpg!d);
+    font-family: 'Press Start 2P', cursiva;
+    backdrop-filter: blur(3px);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border: 1px solid rgb(165, 165, 165);
+}
+
+.addinput {
+    outline: none;
+    font-family: 'Press Start 2P', cursiva;
+    font-size: 20px;
+}
+
+#addbutton {
+    background-color: rgb(152,228,38);
+    color: white;
+    border-bottom:  4.5px solid rgb(152,228,38);
+    padding: 5px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    font-family: 'Press Start 2P', cursiva;
+}
+
+#addbutton:hover {
+    background-color: rgb(177,255,38);
+    border-bottom: 4px solid rgb(152,228,38);
+}
+
+#title {
+    font-size: 26px;
+    color: aliceblue;
+}
+
+.segundo-title {
+    color: rgb(152,228,38);
+}
+
+.Newdata {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}

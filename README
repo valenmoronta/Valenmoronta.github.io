@@ -1,0 +1,32 @@
+best/ minecraft recuestions  list.
+
+prcesing table: visual incomplet.
+
+apirecuest: compatible.
+
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ],
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter"
+        ]
+      }
+    ]
+  }
+}
+
+recuest.
+
+traduccion: web con conexion a api recuestion de recursos para skins  /  la api no es estable_
+por lo tanto es posible un reajuste de web o mantencion  auto del  sv, :codio incompleto solo muestra
